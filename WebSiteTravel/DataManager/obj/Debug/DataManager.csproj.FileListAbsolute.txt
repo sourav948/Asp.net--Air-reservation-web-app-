@@ -1,0 +1,7 @@
+D:\Project Work\WebSiteTravel\DataManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Project Work\WebSiteTravel\DataManager\bin\Debug\DataManager.dll
+D:\Project Work\WebSiteTravel\DataManager\bin\Debug\DataManager.pdb
+D:\Project Work\WebSiteTravel\DataManager\bin\Debug\ProjectEntities.dll
+D:\Project Work\WebSiteTravel\DataManager\bin\Debug\ProjectEntities.pdb
+D:\Project Work\WebSiteTravel\DataManager\obj\Debug\DataManager.dll
+D:\Project Work\WebSiteTravel\DataManager\obj\Debug\DataManager.pdb

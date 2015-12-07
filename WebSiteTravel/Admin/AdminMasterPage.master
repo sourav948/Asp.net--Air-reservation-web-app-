@@ -1,0 +1,307 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/sty.css" type="text/css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+ <script type="text/javascript" src="js/maxheight.js"></script>
+
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/ArnoPro_400.font.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
+  <script type="text/javascript" src="js/script.js" ></script>
+
+
+    <style type="text/css">
+        .style2
+        {
+            width: 180px;
+        }
+        .style3
+        {
+            width: 215px;
+        }
+        .style4
+        {
+            color: #00FF00;
+        }
+        </style>
+
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+<table class="bck" align="center" width="1083"  border="0">
+  <tr>
+    <td valign="top">
+    <table  align="center" width="970" border="0">
+  <tr>
+    <td valign="bottom" height="142">
+   <div class="logo"><img src="images/logo.jpg" alt="" 
+           style="width: 500px; height: 118px" />
+   </div>
+    <div class="search">
+    </div>
+    
+    </td>
+  </tr>
+</table>
+<table class="strip" align="center" width="970" border="0">
+  <tr>
+    
+    <td width="144" style="color: #FFFFFF"><a href="FrmFlights.aspx">ADD FLIGHT</a></td>
+    <td width="156" style="color: #FFFFFF"><a href="FrmRoutes.aspx">ADD ROUTE</a></td>
+    <td width="182" style="color: #FFFFFF"><a href="FrmFlightFare.aspx">ADD FLIGHT FARE</a></td>
+    <td style="color: #FFFFFF" class="style2"><a href="FrmFlightRoute.aspx">ADD FLIGHT ROUTE</a></td>
+    <td style="color: #FFFFFF" class="style3"><a href="FrmFlightSeats.aspx">ADD FLIGHT SEATS</a></td>
+    <td width="175" style="color: #FFFFFF"><a href="FrmState.aspx">ADD STATE</a></td>
+  </tr>
+</table>
+<<table align="center" class="banner" width="970" border="0">
+  <tr>
+    <td height="307">
+    
+    
+    <div class="slider">
+          <div class="inside">
+          	<ul class="kwicks horizontal">
+            	<li>
+              	<img src="images/Chandigarh-City.jpg" alt="">
+                <span></span>
+                <h4 class="title">Chandigarh</h4>
+                    
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Chandigarh</h4>
+                    Chandigarh... the beautiful city designed by Le Crrbusier            </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/Deilli.jpg" alt="" width="800" height="400">
+ 
+                <span></span>
+                <h4 class="title">Delhi</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Delhi</h4>
+                    Delhi......Red fort            </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/Chhatrapati-Shivaji-Terminus-Mumbai.jpg" alt="" width="800" 
+                      height="300">
+                <span></span>
+                <h4 class="title">Mumbai</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Mumbai</h4>
+                     One of the most famous place in Mumbai,Chhatrapati-Shivaji-Terminus...........
+                      </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide4.jpg" alt="">
+                <span></span>
+                <h4 class="title">Orlando</h4>
+                <div class="description">
+ 
+                	<div class="inner">
+                  	<h4>Orlando</h4>
+                    ..................       </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide5.jpg" alt="">
+                <span></span>
+ 
+                <h4 class="title">Goa</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Goa</h4>
+                    Renowned for its beaches, places of worship and world heritage architecture                  </div>
+                </div>
+              </li>
+ 
+              <li>
+              	<img src="images/Flora-Fountain-in-Mumbai.jpg" alt="" width="800" height="300">
+                <span></span>
+                <h4 class="title">Mumbai</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Mumbai</h4>
+                    Flora Fountain....                </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.slider -->
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td class="strip2b" height="23">&nbsp;</td>
+  </tr>
+</table>
+<table class="cont" align="center" width="970" border="1">
+  <tr>
+    <td valign="top">
+    <table align="center" class="icont" width="98%" border="0">
+      <tr>
+        <td valign="top" width="61%"><table width="100%" border="0" style="height: 603px">
+          <tr>
+            <td class="bor" height="240"><table width="96%" height="236" border="0" align="center">
+              <tr>
+                <td height="49"><h2>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </h2></td>
+                </tr>
+              <tr>
+                <td class="text" width="64%"> <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+<div align="right"></div>  </td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="255" valign="top"><table  align="center" class="ser" width="95%" height="232" border="0">
+              <tr>
+                <td height="56" colspan="4"><span class="headb">OUR SERVICES
+                </tr>
+              <tr>
+                <td  width="19%" height="83"><img src="images/accomodation_pic.jpg" width="87" height="75" /></td>
+                <td valign="top" width="31%">
+                <span class="headin"><u>Accommodation</u><br />
+</span>
+
+
+Accommodation bookings online and when the customer ........<a href="#">Read More</a></td>
+                <td align="center" width="21%"><img src="images/holiday_pic.jpg" width="87" height="73" /></td>
+                <td valign="top" width="29%"><span class="headin"><u>Personalised Holidays</u></span><br />
+
+
+We have an established record helping customers with new.......<a href="#">Read More</a></td>
+              </tr>
+              <tr>
+                <td  height="83"><img src="images/air_booking_pic.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Air Bookings</u></span><br />
+
+
+Excellent airline relationships enable to secure our.......<a href="#">Read More</a> </td>
+                <td align="center"><img src="images/tours_pics.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Tours</u></span><br />
+
+
+we can organise activity based tours for groups and , ............<a href="#">Read More</a>
+                
+                
+                </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td class="bor2" width="19%"><table width="100%" border="0" style="height: 596px">
+         
+          <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                    <table style="width: 100%; height: 595px;">
+                        <tr>
+                            <td style="height: 49px; font-size: x-large; color: #006600;">
+                                <strong>CATEGORIES:</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmHotelRooms.aspx">ADD HOTEL ROOMS</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmHotels.aspx">ADD HOTELS</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmRoomCategory.aspx">ADD ROOM CATEGORY</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmHotelCategory.aspx">ADD HOTEL CATEGORY</a>
+                                 &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmRoomFare.aspx">ADD ROOM FARE</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmRoomImages.aspx">ADD ROOM IMAGES</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmCountry.aspx">ADD COUNTRY</a>
+                                 &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px">
+                                <a href="FrmFlightStatus.aspx">ADD FLIGHT STATUS</a> &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="height: 49px"><a href="FrmFlightClassStatus.aspx">ADD FLIGHT CLASS STATUS</a>
+                                </td>
+                        </tr>
+                    </table>
+                </asp:ContentPlaceHolder>
+              </td>
+          </tr>
+          </table></td>
+      </tr></table></td>
+  </tr>
+</table>
+<table class="footer" align="center" width="970" border="1">
+  <tr>
+    <td height="117"><table style="color:#FC6;" width="100%" height="110" border="0">
+      <tr>
+        <td width="1%">&nbsp;</td>
+        <td style="color:#FFF" width="75%">Home&nbsp;&nbsp;|&nbsp;&nbsp;Add Company&nbsp;&nbsp;|&nbsp;&nbsp;Add 
+            Flights&nbsp;&nbsp;|&nbsp; Add Routes&nbsp;&nbsp;|&nbsp;&nbsp;Add Flight 
+            Fare&nbsp;&nbsp;|&nbsp;&nbsp;Add Flight Routes&nbsp; |&nbsp; Add Country</td>
+        <td width="11%"><img src="images/ico-twitter.gif" width="41" height="42" />&nbsp;twitter </td>
+        <td width="12%"><img src="images/linkedin.gif" width="38" height="45" />&nbsp;linked in</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><img src="images/live-chat_icon.gif" width="39" height="41" />&nbsp;live chat</td>
+        <td><img src="images/facebook-orange.png" width="40" height="40" />&nbsp;facebook</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">Copyrights 2013 all right reserved. Designed by
+        <span class="style4">MEENAKSHI SHARMA</span></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+
+    </form>
+
+</body>
+</html>

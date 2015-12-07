@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding:0px; margin:0px; background:url(images/main-bg.jpg);}
+.strip{	background-image:url(images/strip.gif);	background-repeat:no-repeat; text-align:center; height:59px;}
+.strip a{ color:#333; text-decoration:none;}
+.strip a:hover{ color:#FFF; font-weight:500;}
+.bck{background-image:url(images/back.gif); background-repeat:no-repeat;}
+.banner{height:330px; background-color:#FFF}
+.cont{height:500px; margin-top:5px; background-color:#FFF;}
+.strip2b{background-image:url(images/st.gif); background-position:bottom; background-repeat:repeat-x;}
+.icont{height:490px; border-collapse:collapse;}
+.footer{background-color:#1F1B1B; color:#FFF;}
+.logo{ height:120px; float:left; width:500px; background-image:url(images/name.gif); background-repeat:no-repeat;}
+.search{ height:120px; float:left; width:450px;}
+.seimage{height:30px; background-image:url(images/search-bg.gif); background-repeat:no-repeat; background-position:right; text-align:right; color:#FFF; margin-top:60px; font-weight:600; }
+.ch{color:#3A9198; font-weight:bold;}
+.ser{ font-size:14px;}
+.headin{font-weight:bold; font-size:16px; color:#2F8887;}
+.headb{font-size:24px; font:Verdana, Geneva, sans-serif;}
+.bor{border-bottom:thin solid #CCC;}
+.img{background-image:url(images/travel_tours1.jpg); background-position:center left;  background-repeat:no-repeat;}
+.text{ font-size:18px; text-align:justify;}
+.bor1{border-right:thin solid #CCC;}
+.bor2{border-left:thin solid #CCC;}
+.headt{font-size:22px; font-weight:300;}
+.arrow{background-image:url(images/arrow1.gif); background-repeat:no-repeat; background-position:left center; border-bottom:thin solid #CCC;}

@@ -1,0 +1,5 @@
+D:\Project Work\WebSiteTravel\ProjectEntities\obj\Debug\ResolveAssemblyReference.cache
+D:\Project Work\WebSiteTravel\ProjectEntities\bin\Debug\ProjectEntities.dll
+D:\Project Work\WebSiteTravel\ProjectEntities\bin\Debug\ProjectEntities.pdb
+D:\Project Work\WebSiteTravel\ProjectEntities\obj\Debug\ProjectEntities.dll
+D:\Project Work\WebSiteTravel\ProjectEntities\obj\Debug\ProjectEntities.pdb

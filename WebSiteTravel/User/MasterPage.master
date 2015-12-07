@@ -1,0 +1,315 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="User_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/sty.css" type="text/css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+ 
+ <script type="text/javascript" src="js/maxheight.js"></script>
+ 
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/ArnoPro_400.font.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
+  <script type="text/javascript" src="js/script.js" ></script>
+ 
+ 
+</head>
+ 
+<body>
+    <form id="form1" runat="server">
+<table class="bck" align="center" width="1083"  border="0">
+  <tr>
+    <td valign="top">
+    <table  align="center" width="970" border="0">
+  <tr>
+    <td valign="bottom" height="142">
+    <div class="logo">
+    </div>
+    <div class="search">
+    <div class="seimage">
+    <table align="right" width="56%" border="0">
+  <tr>
+    <td align="center" width="67%">
+        <input size="20" style="border:#FFF" type="text" /></td>
+    <td align="center" width="33%"> &nbsp;&nbsp;Search</td>
+  </tr>
+</table>
+ 
+    </div>
+    </div>
+    
+    </td>
+  </tr>
+</table>
+<table class="strip" align="center" width="970" border="0">
+  <tr>
+    <td width="133" style="color:#FFF">HOME</td>
+    <td width="144"><a href="#">ABOUT US</a></td>
+    <td width="156"><a href="#">SERVICES</a></td>
+    <td width="182"><a href="#">LOCATIONS</a></td>
+    <td width="154"><a href="#">ENQUIRY</a></td>
+    <td width="175"><a href="#">CONTACT US</a></td>
+  </tr>
+</table>
+<table align="center" class="banner" width="970" border="0">
+  <tr>
+    <td height="307">
+    
+    
+    <div class="slider">
+          <div class="inside">
+          	<ul class="kwicks horizontal">
+            	<li>
+              	<img src="images/slide1.jpg" alt="">
+                <span></span>
+                <h4 class="title">Las Vegas</h4>
+ 
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Las Vegas</h4>
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide2.jpg" alt="">
+ 
+                <span></span>
+                <h4 class="title">Los Angeles</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Los Angeles</h4>
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide3.jpg" alt="">
+                <span></span>
+                <h4 class="title">San Francisco</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>San Francisco</h4>
+ 
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide4.jpg" alt="">
+                <span></span>
+                <h4 class="title">Orlando</h4>
+                <div class="description">
+ 
+                	<div class="inner">
+                  	<h4>Orlando</h4>
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide5.jpg" alt="">
+                <span></span>
+ 
+                <h4 class="title">Miami</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Miami</h4>
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+ 
+              <li>
+              	<img src="images/slide6.jpg" alt="">
+                <span></span>
+                <h4 class="title">New York city</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>New York city</h4>
+                    Lorem ipsum dolor sit amet, consec tetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean non ummy hendrerit mauris. Phasellus porta. Fusce suscipit varius                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.slider -->
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td class="strip2b" height="23">&nbsp;</td>
+  </tr>
+</table>
+<table class="cont" align="center" width="970" border="1">
+  <tr>
+    <td valign="top">
+    <table align="center" class="icont" width="98%" border="0">
+      <tr>
+        <td class="bor1" width="20%"><table width="100%" height="509" border="0">
+          <tr>
+            <td><span class="headt">Destinations</span></td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td valign="top" width="61%"><table width="100%" height="522" border="0">
+          <tr>
+            <td class="bor" height="240"><table width="96%" height="236" border="0" align="center">
+              <tr>
+                <td height="49"><h2>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </h2></td>
+                </tr>
+              <tr>
+                <td class="text" width="64%"> 
+<div align="right">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+                    </div>  </td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="255" valign="top"><table  align="center" class="ser" width="95%" height="232" border="0">
+              <tr>
+                <td height="56" colspan="4"><span class="headb">OUR SERVICES</span></td>
+                </tr>
+              <tr>
+                <td  width="19%" height="83"><img src="images/accomodation_pic.jpg" width="87" height="75" /></td>
+                <td valign="top" width="31%">
+                <span class="headin"><u>Accommodation</u><br />
+</span>
+ 
+ 
+Accommodation bookings online and when the customer ........<a href="#">Read More</a></td>
+                <td align="center" width="21%"><img src="images/holiday_pic.jpg" width="87" height="73" /></td>
+                <td valign="top" width="29%"><span class="headin"><u>Personalised Holidays</u></span><br />
+ 
+ 
+We have an established record helping customers with new.......<a href="#">Read More</a></td>
+              </tr>
+              <tr>
+                <td  height="83"><img src="images/air_booking_pic.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Air Bookings</u></span><br />
+ 
+ 
+Excellent airline relationships enable to secure our.......<a href="#">Read More</a> </td>
+                <td align="center"><img src="images/tours_pics.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Tours</u></span><br />
+ 
+ 
+we can organise activity based tours for groups and , ............<a href="#">Read More</a>
+                
+                
+                </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td class="bor2" width="19%"><table width="100%" height="509" border="0">
+          <tr>
+            <td><span class="headt">Features</span></td>
+          </tr>
+          <tr>
+            <td class="arrow">  &nbsp;&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="arrow">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table class="footer" align="center" width="970" border="1">
+  <tr>
+    <td height="117"><table style="color:#FC6;" width="100%" height="110" border="0">
+      <tr>
+        <td width="1%">&nbsp;</td>
+        <td style="color:#FFF" width="75%">Home&nbsp;&nbsp;|&nbsp;&nbsp;About us&nbsp;&nbsp;|&nbsp;&nbsp;Services&nbsp;&nbsp;|&nbsp;&nbsp;Location&nbsp;&nbsp;|&nbsp;&nbsp;Enquiry&nbsp;&nbsp;|&nbsp;&nbsp;Contact us</td>
+        <td width="11%"><img src="images/ico-twitter.gif" width="41" height="42" />&nbsp;twitter</td>
+        <td width="12%"><img src="images/linkedin.gif" width="38" height="45" />&nbsp;linked in</td>
+        <td width="1%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><img src="images/live-chat_icon.gif" width="39" height="41" />&nbsp;live chat</td>
+        <td><img src="images/facebook-orange.png" width="40" height="40" />&nbsp;facebook</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">Copyrights 2010 all right reserved. Designed by <span class="ch">CHANDIKA SOFT</span></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+ 
+    </form>
+ 
+</body>
+</html>
+
+

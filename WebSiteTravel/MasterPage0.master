@@ -1,0 +1,275 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage0.master.cs" Inherits="MasterPage0" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/sty.css" type="text/css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+ 
+ <script type="text/javascript" src="js/maxheight.js"></script>
+ 
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/ArnoPro_400.font.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+	<script type="text/javascript" src="js/kwicks-1.5.1.pack.js" ></script>
+  <script type="text/javascript" src="js/script.js" ></script>
+ 
+ 
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+            color: #000099;
+            height: 12px;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+        }
+        .style3
+        {
+            color: #FFCCFF;
+        }
+    </style>
+ 
+ 
+</head>
+ 
+<body>
+    <form id="form1" runat="server">
+<table class="bck" align="center" width="1083"  border="0">
+  <tr>
+    <td valign="top">
+    <table  align="center" width="970" border="0">
+  <tr>
+    <td valign="bottom" height="142">
+    <div class="logo"><img src="images/logo.jpg" alt="" 
+           style="width: 500px; height: 118px" />
+  
+    </div>
+    <div class="search">
+    
+    </div>
+    
+    </td>
+  </tr>
+</table>
+<table class="strip" align="center" width="970" border="0">
+  <tr>
+    <td width="133" style="color:#FFF"><a href="HomePage.aspx"><span class="style2">HOME</span></a></td>
+    <td width="144" class="style3"><a href="About us.aspx">ABOUT US</a></td>
+    <td width="182" class="style2"><a href="FrmEnquiry.aspx">FLIGHTS</a></td>
+   <td width="154" class="style2"><a href="FrmHotelEnquiry.aspx">HOTELS</a></td>
+    
+  </tr>
+</table>
+<table align="center" class="banner" width="970" border="0">
+  <tr>
+    <td height="307">
+    
+    
+    <div class="slider">
+          <div class="inside">
+          	<ul class="kwicks horizontal">
+            	<li>
+              	<img src="images/Chandigarh-City.jpg" alt="">
+                <span></span>
+                <h4 class="title">Chandigarh</h4>
+                    
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Chandigarh</h4>
+                    Chandigarh... the beautiful city designed by Le Crrbusier            </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/Deilli.jpg" alt="" width="800" height="400">
+ 
+                <span></span>
+                <h4 class="title">Delhi</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Delhi</h4>
+                    Delhi......Red fort            </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/Chhatrapati-Shivaji-Terminus-Mumbai.jpg" alt="" width="800" 
+                      height="300">
+                <span></span>
+                <h4 class="title">Mumbai</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Mumbai</h4>
+                     One of the most famous place in Mumbai,Chhatrapati-Shivaji-Terminals......
+                      </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide4.jpg" alt="">
+                <span></span>
+                <h4 class="title">Orlando</h4>
+                <div class="description">
+ 
+                	<div class="inner">
+                  	<h4>Orlando</h4>
+                    ..................       </div>
+                </div>
+              </li>
+              <li>
+              	<img src="images/slide5.jpg" alt="">
+                <span></span>
+ 
+                <h4 class="title">Goa</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Goa</h4>
+                    Renowned for its beaches, places of worship and world heritage architecture                  </div>
+                </div>
+              </li>
+ 
+              <li>
+              	<img src="images/Flora-Fountain-in-Mumbai.jpg" alt="" width="800" height="300">
+                <span></span>
+                <h4 class="title">Mumbai</h4>
+                <div class="description">
+                	<div class="inner">
+                  	<h4>Mumbai</h4>
+                    Flora Fountain....                </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.slider -->
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td class="strip2b" height="23">&nbsp;</td>
+  </tr>
+</table>
+<table class="cont" align="center" width="970" border="1">
+  <tr>
+        <td valign="top" width="61%" style="background-color: #CC99FF"><table width="100%" 
+                height="522" border="3" style="background-color: #4EC6C5">
+          <tr>
+            <td class="bor" height="240"><table width="96%" height="236" border="0" align="center">
+              <tr>
+                <td height="49"><h2 style="background-color: #FFFFFF">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </h2></td>
+                </tr>
+              <tr>
+                <td class="text" width="64%"> 
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                  </td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="255" valign="top"><table  align="center" class="ser" width="95%" height="232" border="0">
+              <tr>
+                <td colspan="4" class="style1" style="background-color: #FFFFFF">Our Services:</td>
+                </tr>
+              <tr>
+                <td  width="19%" height="83"><img src="images/accomodation_pic.jpg" width="87" height="75" /></td>
+                <td valign="top" width="31%">
+                <span class="headin"><u>Accommodation</u><br />
+</span>
+ 
+ 
+Accommodation bookings online and when the customer ........<a href="FrmAccomodation.aspx">Read More</a></td>
+                <td align="center" width="21%"><img src="images/holiday_pic.jpg" width="87" height="73" /></td>
+                <td valign="top" width="29%"><span class="headin"><u>Railway Booking </u></span><br />
+ 
+ 
+We have an established record helping customers with new.......<a href="#">Read More</a></td>
+              </tr>
+              <tr>
+                <td  height="83"><img src="images/air_booking_pic.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Air Bookings</u></span><br />
+ 
+ 
+Excellent airline relationships enable to secure our.......<a href="#">Read More</a> </td>
+                <td align="center"><img src="images/tours_pics.jpg" width="87" height="75" /></td>
+                <td valign="top">
+                <span class="headin"><u>Tours</u></span><br />
+ 
+ 
+we can organise activity based tours for groups and , ............<a href="Tours.aspx">Read More</a>
+                
+                
+                </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td class="bor2" width="19%"><table width="100%" height="509" border="0">
+              
+                  <tr>
+                      <td>
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                             
+                         </asp:ContentPlaceHolder>
+                         </td>
+                  </tr>
+              
+                    
+        </table></td>
+      </tr>
+    </table>
+<table class="footer" align="center" width="970" border="1">
+  <tr>
+    <td height="117"><table style="color:#FC6;" width="100%" height="110" border="0">
+      <tr>
+        <td width="1%">&nbsp;</td>
+        <td style="color:#FFF" width="75%">Home&nbsp;&nbsp;|&nbsp;&nbsp;About us&nbsp;&nbsp;|&nbsp;&nbsp;Flights&nbsp;&nbsp;|&nbsp;&nbsp;Hotels</td>
+        <td width="11%"><img src="images/ico-twitter.gif" width="41" height="42" />&nbsp;&nbsp;<a href="www.twitter.com">twitter</a></td>
+        <td width="12%"><img src="images/linkedin.gif" width="38" height="45" />&nbsp;<a href="www.linked in.com">linked in</a></td>
+        <td width="1%">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><img src="images/live-chat_icon.gif" width="39" height="41" />&nbsp;<a href="www.live chat.com">live chat</a></td>
+        <td><img src="images/facebook-orange.png" width="40" height="40" />&nbsp;<a href="www.facebook.com">facebook</a></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">Copyrights 2010 all right reserved. Designed by <span class="ch">CHANDIKA SOFT</span></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+ 
+    </form>
+ 
+</body>
+</html>
+
+
+
+
